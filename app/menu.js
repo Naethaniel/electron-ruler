@@ -139,6 +139,18 @@ export default class MenuBuilder {
           click: () => {
             this.mainWindow.setFullScreen(!this.mainWindow.isFullScreen());
           }
+        },
+        {
+          label: 'Rotate',
+          accelerator: 'Shift+Command+R',
+          click: () => {
+            if (this.mainWindow.rotated) {
+              this.mainWindow.setSize(59, 499);
+            } else {
+              this.mainWindow.setSize(499, 59);
+            }
+            this.mainWindow.rotated = !this.mainWindow.rotated;
+          }
         }
       ]
     };
