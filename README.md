@@ -1,7 +1,7 @@
 ## Electron ruler
 
 App made with electron and react. Single window which shows ruler with 5 px step. <br/>
-Based on electron-react boilerplate: <br/>https://github.com/electron-react-boilerplate/electron-react-boilerplate
+Based on electron-react boilerplate: <br/>https://github.com/electron-react-boilerplate/electron-react-boilerplate <br/>
 Shortcuts:
 
 - Command + Shift + R -> rotate window
@@ -16,12 +16,12 @@ Shortcuts:
 
 ### Mac
 
-1. Download
+1. Download ElectronRuler-X.X.X.dmg
 2. Run and drag it to your Applications
 
 ### Linux
 
-1. Download
+1. Download electron-ruler-X.X.X-x86_64.AppImage
 2. `chmod +x`
 
 ## Install dev
