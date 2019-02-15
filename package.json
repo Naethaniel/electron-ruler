@@ -110,7 +110,8 @@
   },
   "author": {
     "name": "Naethaniel",
-    "url": "https://github.com/Naethaniel/electron-ruler"
+    "url": "https://github.com/Naethaniel/electron-ruler",
+    "email": "bljuuzeff@gmail.com"
   },
   "license": "MIT",
   "bugs": {
