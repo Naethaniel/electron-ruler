@@ -9,9 +9,9 @@ class Ruler extends Component {
 
   drawBlock(number) {
     return (
-      <div className={styles['block']} key={number}>
+      <div className={styles.block} key={number}>
         <p>
-          {number !== 0 ? number * 5 + 5 : 5}
+          {number * 10}
         </p>
       </div>
     )
@@ -19,7 +19,7 @@ class Ruler extends Component {
 
   drawRuler() {
     const rulerElements = []
-    for (let i = 0; i < 50; i++) {
+    for (let i = 1; i < 51; i++) {
       rulerElements.push(this.drawBlock(i))
     }
     return rulerElements

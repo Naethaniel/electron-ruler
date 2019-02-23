@@ -1,23 +1,17 @@
 .block {
-  border-bottom: black solid 1px;
-  border-right: black solid 1px;
   height: 9px;
-  width: 51px;
-}
-
-.block:first-of-type {
-  border-top: black solid 1px;
+  border-bottom: solid black 1px;
+  width: 70px;
+  margin-left: 10px;
 }
 
 p {
   margin: 0;
-  font-size: 8px;
-  position: relative;
-  left: 0;
-  top: -8px
+  font-size: 10px;
 }
 
 body {
+  margin: 0;
   background: #fff4c4;
 }
 
@@ -25,14 +19,12 @@ body {
   .block {
     width: 9px;
     height: 50px;
+    margin-left: 0;
+    border-right: black solid 1px;
   }
 
   body {
     margin: 0;
-  }
-
-  .block:first-of-type {
-    border-top: unset;
   }
 
   .ruler-container {
@@ -45,13 +37,5 @@ body {
     transform: rotate(270deg);
     left: 0;
     top: 0;
-  }
-
-  .block:first-of-type {
-    border-right: black solid 1px;
-  }
-
-  .block:last-of-type {
-    border-right: unset;
   }
 }
