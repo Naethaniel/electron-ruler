@@ -13,6 +13,7 @@
 import {app, BrowserWindow} from 'electron'
 import {autoUpdater} from 'electron-updater'
 import log from 'electron-log'
+import path from 'path'
 import MenuBuilder from './menu'
 
 export default class AppUpdater {
@@ -76,7 +77,8 @@ app.on('ready', async () => {
     fullscreenable: false,
     title: 'Ruler',
     visibleOnAllWorkspaces: true,
-    focusable: true
+    focusable: true,
+    icon: path.join(__dirname, '../resources/icons/64x64.png')
   })
 
   mainWindow.rotated = false
